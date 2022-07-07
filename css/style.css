@@ -1,0 +1,48 @@
+
+    @font-face {
+        font-family: "calculator";
+        src: url("../font/Calculator.ttf");
+    }
+
+    /* GENERAL */
+    .calculator {
+        /*background-image: url("../images/calculadora_rosa.png");*/
+        background-image: url("../images/calculadora.png");
+        background-repeat: no-repeat;
+        height: 594px;
+        padding-top: 117px;
+        padding-left: 25px;
+    }
+
+    /* SCREEN */
+    input[type="text"]{
+        font-family: "calculator";
+        background-color: transparent;
+        border: transparent;
+        font-size: 60px;
+        margin-left: 25px;
+        width: 386px;
+    }
+
+    /* KEYBOARD */
+    .keyboard{
+        margin-top: 61px;
+    }
+
+    input[type="button"] {
+        /*background-color: rgb(234,77,128);
+        border-color: rgb(182 45 88);*/
+        background-color: rgb(78, 74, 74);
+        color: white;
+        border-radius: 20px;
+        font-size: 60px;
+        width: 100px;
+        height: 80px;
+        margin: 4px;
+    }
+
+    input[type="button"]:active {
+       /* background-color: rgb(182, 45, 88);*/
+        background-color: rgb(48, 46, 46);
+        margin-bottom: 4px;
+    }

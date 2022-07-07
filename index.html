@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- JS -->
+    <script
+      type="text/javascript"
+      src="./js/calculator.js"
+      charset="UTF-8"
+    ></script>
+
+    <script></script>
+  </head>
+  <body>
+    <div class="calculator">
+      <div>
+        <input type="text" id="screen" disabled />
+      </div>
+      <div class="keyboard">
+        <div>
+          <input type="button" value="7" onclick="addScreen('7')" />
+          <input type="button" value="8" onclick="addScreen('8')" />
+          <input type="button" value="9" onclick="addScreen('9')" />
+          <input type="button" value="x" onclick="addScreen('x')" />
+        </div>
+        <div>
+          <input type="button" value="4" onclick="addScreen('4')" />
+          <input type="button" value="5" onclick="addScreen('5')" />
+          <input type="button" value="6" onclick="addScreen('6')" />
+          <input type="button" value="-" onclick="addScreen('-')" />
+        </div>
+        <div>
+          <input type="button" value="1" onclick="addScreen('1')" />
+          <input type="button" value="2" onclick="addScreen('2')" />
+          <input type="button" value="3" onclick="addScreen('3')" />
+          <input type="button" value="+" onclick="addScreen('+')" />
+        </div>
+        <div>
+          <input type="button" value="C" onclick="clearScreen()" />
+          <input type="button" value="0" onclick="addScreen('0')" />
+          <input type="button" value="=" onclick="calculate()" />
+          <input type="button" value="/" onclick="addScreen('/')" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
